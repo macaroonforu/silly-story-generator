@@ -1,7 +1,14 @@
+.container{
+    display: flex; 
+    height: 100vh; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: yellow; 
+}
+
 body {
     font-family: helvetica, sans-serif;
     width: 350px;
-    background-color: yellow; 
 }
 
 label {
@@ -24,10 +31,5 @@ p {
     visibility: hidden;
 }
 
-.container{
-    display: flex; 
-    height: 100vh; 
-    justify-content: center; 
-    align-items: center; 
-}
+
     
